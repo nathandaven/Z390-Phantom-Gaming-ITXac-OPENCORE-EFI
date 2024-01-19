@@ -1,0 +1,344 @@
+[Device Install Log]
+     OS Version = 10.0.22631
+     Service Pack = 0.0
+     Suite = 0x0300
+     ProductType = 1
+     Architecture = amd64
+
+[BeginLog]
+
+[Boot Session: 2024/01/14 17:45:20.500]
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_14E4&DEV_43A0]
+>>>  Section start 2024/01/14 18:06:44.414
+      cmd: "C:\Users\Nathan Davenport\Downloads\SDI_R2309\SDI_x64_R2309.exe" 
+     ndv: INF path: C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Broadcom\FORCED\10x64\BCM43x_7.77.119.0\bcmwl63.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Broadcom\FORCED\10x64\BCM43x_7.77.119.0\bcmwl63.inf'
+     dvi:      {Build Driver List} 18:06:44.454
+     dvi:           Searching for hardware ID(s):
+     dvi:                pci\ven_14e4&dev_43a0&subsys_0117106b&rev_03
+     dvi:                pci\ven_14e4&dev_43a0&subsys_0117106b
+     dvi:                pci\ven_14e4&dev_43a0&cc_028000
+     dvi:                pci\ven_14e4&dev_43a0&cc_0280
+     dvi:           Searching for compatible ID(s):
+     dvi:                pci\ven_14e4&dev_43a0&rev_03
+     dvi:                pci\ven_14e4&dev_43a0
+     dvi:                pci\ven_14e4&cc_028000
+     dvi:                pci\ven_14e4&cc_0280
+     dvi:                pci\ven_14e4
+     dvi:                pci\cc_028000
+     dvi:                pci\cc_0280
+     sig:           {_VERIFY_FILE_SIGNATURE} 18:06:44.554
+     sig:                Key      = bcmwl63.inf
+     sig:                FilePath = c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf
+     sig:                Catalog  = c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\BCM43XX64.CAT
+     sig:                Success: File is signed in catalog.
+     sig:           {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 18:06:44.590
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - PCI\VEN_14E4&DEV_43A0
+     dvi:                InfName      - c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf
+     dvi:                DevDesc      - Broadcom 802.11ac Network Adapter
+     dvi:                Section      - BCM43XAC_NT62.NTamd64
+     dvi:                Rank         - 0x00ff2001
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 04/21/2020
+     dvi:                Version      - 7.77.119.0
+     dvi:      {Build Driver List - exit(0x00000000)} 18:06:44.637
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 18:06:44.640
+     dvi:           Default installer: Enter 18:06:44.646
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e972-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - Broadcom 802.11ac Network Adapter
+     dvi:                          InfFile     - c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf
+     dvi:                          Section     - BCM43XAC_NT62
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 18:06:44.685
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - bcmwl63.inf
+     ndv:           Driver Date    - 04/21/2020
+     ndv:           Driver Version - 7.77.119.0
+     sto:      {Setup Import Driver Package: c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf} 18:06:44.715
+     inf:           Provider: Broadcom
+     inf:           Class GUID: {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:           Driver Version: 04/21/2020,7.77.119.0
+     inf:           Catalog File: BCM43XX64.CAT
+     sto:           {Copy Driver Package: c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf} 18:06:44.750
+     sto:                Driver Package = c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf
+     sto:                Flags          = 0x00000007
+     sto:                Destination    = C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}
+     sto:                Copying driver package files to 'C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}'.
+     flq:                {FILE_QUEUE_COMMIT} 18:06:45.234
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\BCM43XX64.CAT' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\BCM43XX64.CAT'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\BCMWL63a.SYS' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\BCMWL63a.SYS'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\bcmwl63.inf'.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:06:45.263
+     sto:           {Copy Driver Package: exit(0x00000000)} 18:06:45.268
+     ump:           Import flags: 0x00000000
+     pol:           {Driver package policy check} 18:06:45.312
+     pol:           {Driver package policy check - exit(0x00000000)} 18:06:45.312
+     sto:           {Stage Driver Package: C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\bcmwl63.inf} 18:06:45.313
+     inf:                Provider       = Broadcom
+     inf:                Class GUID     = {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:                Driver Version = 04/21/2020,7.77.119.0
+     inf:                Catalog File   = BCM43XX64.CAT
+     inf:                Version Flags  = 0x00000001
+     inf:                {Query Configurability: C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\bcmwl63.inf} 18:06:45.880
+     inf:                     Driver package 'bcmwl63.inf' is configurable.
+     inf:                {Query Configurability: exit(0x00000000)} 18:06:45.888
+     flq:                {FILE_QUEUE_COMMIT} 18:06:45.889
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\BCM43XX64.CAT' to 'C:\windows\System32\DriverStore\Temp\{6224812d-0e24-5d47-82d0-7884e83c19f2}\BCM43XX64.CAT'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\BCMWL63a.SYS' to 'C:\windows\System32\DriverStore\Temp\{6224812d-0e24-5d47-82d0-7884e83c19f2}\BCMWL63a.SYS'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{d71737c3-5a60-b243-b832-e27147507637}\bcmwl63.inf' to 'C:\windows\System32\DriverStore\Temp\{6224812d-0e24-5d47-82d0-7884e83c19f2}\bcmwl63.inf'.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:06:45.922
+     sto:                {DRIVERSTORE IMPORT VALIDATE} 18:06:45.930
+     sig:                     Driver package catalog is valid.
+     sig:                     {_VERIFY_FILE_SIGNATURE} 18:06:45.951
+     sig:                          Key      = bcmwl63.inf
+     sig:                          FilePath = C:\windows\System32\DriverStore\Temp\{6224812d-0e24-5d47-82d0-7884e83c19f2}\bcmwl63.inf
+     sig:                          Catalog  = C:\windows\System32\DriverStore\Temp\{6224812d-0e24-5d47-82d0-7884e83c19f2}\BCM43XX64.CAT
+     sig:                          Success: File is signed in catalog.
+     sig:                     {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 18:06:45.957
+     sto:                {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 18:06:46.036
+     sig:                Signer Score  = 0x0D000005 (WHQL)
+     sig:                Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:                Submission ID = 30097720_13746881734229081_1152921505689634778
+     sto:                {Core Driver Package Import: bcmwl63.inf_amd64_69ef96e45e19eed1} 18:06:46.044
+     sto:                     {DRIVERSTORE IMPORT BEGIN} 18:06:46.045
+     sto:                     {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 18:06:46.045
+     cpy:                     {Copy Directory: C:\windows\System32\DriverStore\Temp\{6224812d-0e24-5d47-82d0-7884e83c19f2}} 18:06:46.046
+     cpy:                          Target Path = C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:06:46.048
+     idb:                     {Register Driver Package: C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1\bcmwl63.inf} 18:06:46.049
+     idb:                          Created driver package object 'bcmwl63.inf_amd64_69ef96e45e19eed1' in DRIVERS database node.
+     idb:                          Created driver INF file object 'oem44.inf' in DRIVERS database node.
+     idb:                          Registered driver package 'bcmwl63.inf_amd64_69ef96e45e19eed1' with 'oem44.inf'.
+     idb:                     {Register Driver Package: exit(0x00000000)} 18:06:46.058
+     idb:                     {Publish Driver Package: C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1\bcmwl63.inf} 18:06:46.058
+     idb:                          Activating driver package 'bcmwl63.inf_amd64_69ef96e45e19eed1'.
+     cpy:                          Published 'bcmwl63.inf_amd64_69ef96e45e19eed1\bcmwl63.inf' to 'oem44.inf'.
+     idb:                          Indexed 28 device IDs for 'bcmwl63.inf_amd64_69ef96e45e19eed1'.
+     sto:                          Flushed driver database node 'DRIVERS'. Time = 15 ms
+     sto:                          Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                     {Publish Driver Package: exit(0x00000000)} 18:06:46.083
+     sto:                     {DRIVERSTORE IMPORT END} 18:06:46.090
+     dvi:                          Flushed all driver package files to disk. Time = 6 ms
+     sig:                          Installed catalog 'BCM43XX64.CAT' as 'oem44.cat'.
+     sto:                     {DRIVERSTORE IMPORT END: exit(0x00000000)} 18:06:46.109
+     sto:                {Core Driver Package Import: exit(0x00000000)} 18:06:46.109
+     sto:           {Stage Driver Package: exit(0x00000000)} 18:06:46.110
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 18:06:46.158
+     dvi:      Searching for hardware ID(s):
+     dvi:           pci\ven_14e4&dev_43a0&subsys_0117106b&rev_03
+     dvi:           pci\ven_14e4&dev_43a0&subsys_0117106b
+     dvi:           pci\ven_14e4&dev_43a0&cc_028000
+     dvi:           pci\ven_14e4&dev_43a0&cc_0280
+     dvi:      Searching for compatible ID(s):
+     dvi:           pci\ven_14e4&dev_43a0&rev_03
+     dvi:           pci\ven_14e4&dev_43a0
+     dvi:           pci\ven_14e4&cc_028000
+     dvi:           pci\ven_14e4&cc_0280
+     dvi:           pci\ven_14e4
+     dvi:           pci\cc_028000
+     dvi:           pci\cc_0280
+     dvi:      Class GUID of device changed to: {4d36e972-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0}
+     dvi:           {Core Device Install} 18:06:46.266
+     dvi:                {Configure Device - PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0} 18:06:46.267
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: PCI\VEN_8086&DEV_A33D&SUBSYS_A33D1849&REV_F0\3&11583659&0&E0
+     sto:                     {Configure Driver Package: C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1\bcmwl63.inf}
+     sto:                          Source Filter  = pci\ven_14e4&dev_43a0
+     inf:                          Class GUID     = {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable
+     inf:                          {Configure Driver: Broadcom 802.11ac Network Adapter}
+     inf:                               Section Name = BCM43XAC_NT62.NTamd64
+     inf:                               {Add Service: BCM43XX}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\bcmwl63a.sys
+     inf:                                    Display Name  = Broadcom 802.11 Network Adapter Driver
+     inf:                                    Group         = NDIS
+     inf:                                    Updated service 'BCM43XX'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: vwifibus}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\vwifibus.sys
+     inf:                                    Display Name  = @%SystemRoot%\System32\drivers\vwifibus.sys,-257
+     inf:                                    Description   = @%SystemRoot%\System32\drivers\vwifibus.sys,-258
+     inf:                                    Updated service 'vwifibus'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = PCI\VEN_14E4&DEV_43A0
+     inf:                               {Configure Driver Configuration: BCM43XAC_NT62.NTamd64}
+     inf:                                    Service Name  = BCM43XX
+     inf:                                    Upper Filters = vwifibus
+     inf:                                    Included INFs = netvwifibus.inf
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 18:06:46.311
+     flq:                               Copying 'C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1\BCMWL63a.SYS' to 'C:\windows\System32\drivers\BCMWL63a.SYS'.
+!    flq:                               MoveFile: 'C:\windows\System32\drivers\SET9F8F.tmp' to 'C:\windows\System32\drivers\BCMWL63a.SYS' FAILED
+!    flq:                               Error 5: Access is denied.
+     flq:                               Shuffle-MoveFile: 'C:\windows\System32\drivers\SET9F8F.tmp' to 'C:\windows\System32\drivers\BCMWL63a.SYS'
+     idb:                               Last driver package 'bcmwdi.inf_amd64_00fa4196ffaad511' to copy 'C:\windows\System32\drivers\BCMWL63a.SYS' needs reconfiguration.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:06:46.333
+     dvi:                          Existing files modified, may need to restart related services.
+     sto:                     {Configure Driver Package: exit(0x00000bc3)}
+     dvi:                     Restart required for any devices using this driver.
+     dvi:                     Install Device: Configuring device. 18:06:46.335
+     dvi:                          Configuration: oem44.inf:pci\ven_14e4&dev_43a0,BCM43XAC_NT62
+     dvi:                     Install Device: Configuring device completed. 18:06:46.341
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     {Restarting Devices} 18:06:46.342
+     dvi:                          Query-remove: PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0
+     dvi:                          Start: PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0
+     dvi:                          Restart verified: PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0
+     dvi:                     {Restarting Devices exit} 18:06:46.953
+     dvi:                {Configure Device - exit(0x00000000)} 18:06:46.954
+     dvi:           {Core Device Install - exit(0x00000000)} 18:06:46.956
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 18:06:46.986
+     ndv: {Install Related Drivers: exit(0x00000000)} 18:06:46.994
+<<<  Section end 2024/01/14 18:06:47.001
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_14E4&DEV_43A0]
+>>>  Section start 2024/01/14 18:06:47.121
+      cmd: "C:\Users\NATHAN~1\AppData\Local\Temp\SDI\install64.exe" "PCI\VEN_14E4&DEV_43A0" "C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Broadcom\FORCED\10x64\BCM43x_7.77.119.0\bcmwl63.inf"
+     ndv: INF path: C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Broadcom\FORCED\10x64\BCM43x_7.77.119.0\bcmwl63.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Broadcom\FORCED\10x64\BCM43x_7.77.119.0\bcmwl63.inf'
+     dvi:      {Build Driver List} 18:06:47.162
+     dvi:           Searching for hardware ID(s):
+     dvi:                pci\ven_14e4&dev_43a0&subsys_0117106b&rev_03
+     dvi:                pci\ven_14e4&dev_43a0&subsys_0117106b
+     dvi:                pci\ven_14e4&dev_43a0&cc_028000
+     dvi:                pci\ven_14e4&dev_43a0&cc_0280
+     dvi:           Searching for compatible ID(s):
+     dvi:                pci\ven_14e4&dev_43a0&rev_03
+     dvi:                pci\ven_14e4&dev_43a0
+     dvi:                pci\ven_14e4&cc_028000
+     dvi:                pci\ven_14e4&cc_0280
+     dvi:                pci\ven_14e4
+     dvi:                pci\cc_028000
+     dvi:                pci\cc_0280
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - PCI\VEN_14E4&DEV_43A0
+     dvi:                InfName      - c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf
+     dvi:                DevDesc      - Broadcom 802.11ac Network Adapter
+     dvi:                Section      - BCM43XAC_NT62.NTamd64
+     dvi:                Rank         - 0x00ff2001
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 04/21/2020
+     dvi:                Version      - 7.77.119.0
+     dvi:      {Build Driver List - exit(0x00000000)} 18:06:47.296
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 18:06:47.301
+     dvi:           Default installer: Enter 18:06:47.306
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e972-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - Broadcom 802.11ac Network Adapter
+     dvi:                          InfFile     - c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf
+     dvi:                          Section     - BCM43XAC_NT62
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 18:06:47.347
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - bcmwl63.inf
+     ndv:           Driver Date    - 04/21/2020
+     ndv:           Driver Version - 7.77.119.0
+     ndv:      Driver package 'C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1\bcmwl63.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\users\nathan~1\appdata\local\temp\sdi\broadcom\forced\10x64\bcm43x_7.77.119.0\bcmwl63.inf} 18:06:47.380
+     sto:           Driver package already imported as 'oem44.inf'.
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 18:06:47.411
+     dvi:      Searching for hardware ID(s):
+     dvi:           pci\ven_14e4&dev_43a0&subsys_0117106b&rev_03
+     dvi:           pci\ven_14e4&dev_43a0&subsys_0117106b
+     dvi:           pci\ven_14e4&dev_43a0&cc_028000
+     dvi:           pci\ven_14e4&dev_43a0&cc_0280
+     dvi:      Searching for compatible ID(s):
+     dvi:           pci\ven_14e4&dev_43a0&rev_03
+     dvi:           pci\ven_14e4&dev_43a0
+     dvi:           pci\ven_14e4&cc_028000
+     dvi:           pci\ven_14e4&cc_0280
+     dvi:           pci\ven_14e4
+     dvi:           pci\cc_028000
+     dvi:           pci\cc_0280
+     dvi:      Class GUID of device changed to: {4d36e972-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0}
+     dvi:           {Core Device Install} 18:06:47.518
+     dvi:                {Configure Device - PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0} 18:06:47.520
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: PCI\VEN_8086&DEV_A33D&SUBSYS_A33D1849&REV_F0\3&11583659&0&E0
+     sto:                     {Configure Driver Package: C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1\bcmwl63.inf}
+     sto:                          Source Filter  = pci\ven_14e4&dev_43a0
+     inf:                          Class GUID     = {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable
+     inf:                          {Configure Driver: Broadcom 802.11ac Network Adapter}
+     inf:                               Section Name = BCM43XAC_NT62.NTamd64
+     inf:                               {Add Service: BCM43XX}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\bcmwl63a.sys
+     inf:                                    Display Name  = Broadcom 802.11 Network Adapter Driver
+     inf:                                    Group         = NDIS
+     inf:                                    Updated service 'BCM43XX'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: vwifibus}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\vwifibus.sys
+     inf:                                    Display Name  = @%SystemRoot%\System32\drivers\vwifibus.sys,-257
+     inf:                                    Description   = @%SystemRoot%\System32\drivers\vwifibus.sys,-258
+     inf:                                    Updated service 'vwifibus'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = PCI\VEN_14E4&DEV_43A0
+     inf:                               {Configure Driver Configuration: BCM43XAC_NT62.NTamd64}
+     inf:                                    Service Name  = BCM43XX
+     inf:                                    Upper Filters = vwifibus
+     inf:                                    Included INFs = netvwifibus.inf
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 18:06:47.565
+     flq:                               Copying 'C:\windows\System32\DriverStore\FileRepository\bcmwl63.inf_amd64_69ef96e45e19eed1\BCMWL63a.SYS' to 'C:\windows\System32\drivers\BCMWL63a.SYS'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\BCMWL63a.SYS' remains unchanged.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:06:47.599
+     sto:                     {Configure Driver Package: exit(0x00000000)}
+     dvi:                     Install Device: Configuring device. 18:06:47.600
+     dvi:                          Configuration: oem44.inf:pci\ven_14e4&dev_43a0,BCM43XAC_NT62
+     dvi:                     Install Device: Configuring device completed. 18:06:47.604
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Install Device: Removing device 'PCI\VEN_14E4&DEV_43A0&SUBSYS_0117106B&REV_03\4&3970A961&0&00E0' and sub-tree. 18:06:47.605
+     dvi:                     Install Device: Removing device sub-tree completed. 18:06:47.792
+     dvi:                     Install Device: Restarting device. 18:06:47.793
+     dvi:                     Install Device: Restarting device completed. 18:06:47.798
+!    dvi:                     Device pending start: Device has problem: 0x38 (CM_PROB_NEED_CLASS_CONFIG), problem status: 0x00000000.
+     dvi:                {Configure Device - exit(0x00000000)} 18:06:47.800
+     dvi:           {Core Device Install - exit(0x00000000)} 18:06:47.802
+     dvi:           Waiting for device post-install to complete. 18:06:47.804
+     dvi:           Device post-install completed. 18:06:48.157
+     dvi:           Device Status: 0x0180200a
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 18:06:48.177
+     ndv: {Install Related Drivers: exit(0x00000000)} 18:06:48.185
+<<<  Section end 2024/01/14 18:06:48.193
+<<<  [Exit status: SUCCESS]
+

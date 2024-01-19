@@ -1,0 +1,13 @@
+To install the WiFi Adapter on Windows 7/8/10 for the first time, do the following:
+
+1. Connect your WiFi Adapter to your computer's PCi-e port.
+2. From Windows Explorer, open " Computer Management" .
+3. In the " Computer Management" left pane, select " Device Manager" .
+4. In the " Device Manager" right pane, locate and expand " Network Adapter" .
+5. In " Network Adapter" , right-click the name of the device you connected, and then select " Update Driver Software" .
+6. In the "Hardware Update" wizard, select Browse "my computer for driver software" and click Next.
+7. Click " Browse" and then locate the Driver folder. For example, the WLAN Driver is located in " D:\Drivers\BCM94360CD\WLAN Driver for Windows 7_8_10\ "
+8. Click Next to install the driver.
+
+The Driver Download:
+http://www.minihere.com/broadcom-bcm94360cs-driver-download-for-windows-7-8-10.html

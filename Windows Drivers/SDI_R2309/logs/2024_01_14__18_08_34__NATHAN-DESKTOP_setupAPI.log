@@ -1,0 +1,380 @@
+[Device Install Log]
+     OS Version = 10.0.22631
+     Service Pack = 0.0
+     Suite = 0x0300
+     ProductType = 1
+     Architecture = amd64
+
+[BeginLog]
+
+[Boot Session: 2024/01/14 17:45:20.500]
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267]
+>>>  Section start 2024/01/14 18:12:06.327
+      cmd: "C:\Users\Nathan Davenport\Downloads\SDI_R2309\SDI_x64_R2309.exe" 
+     ndv: INF path: C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Apple\Allx64\AppleKeyboardMagic2\Keymagic2.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Apple\Allx64\AppleKeyboardMagic2\Keymagic2.inf'
+     dvi:      {Build Driver List} 18:12:06.365
+     dvi:           Searching for hardware ID(s):
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}_localmfg&000f
+     dvi:           Searching for compatible ID(s):
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}_generic
+     sig:           {_VERIFY_FILE_SIGNATURE} 18:12:06.399
+     sig:                Key      = keymagic2.inf
+     sig:                FilePath = c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf
+     sig:                Catalog  = c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\KeyMagic2.cat
+     sig:                Success: File is signed in catalog.
+     sig:           {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 18:12:06.425
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - BTHENUM\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&0267
+     dvi:                InfName      - c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf
+     dvi:                DevDesc      - Apple Keyboard
+     dvi:                Section      - Dri_BTH_Inst.NT
+     dvi:                Rank         - 0x00ff0000
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 11/11/2019
+     dvi:                Version      - 6.1.7800.0
+     dvi:      {Build Driver List - exit(0x00000000)} 18:12:06.471
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 18:12:06.476
+     dvi:           Default installer: Enter 18:12:06.481
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {745a17a0-74d3-11d0-b6fe-00a0c90f57da}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - Apple Keyboard
+     dvi:                          InfFile     - c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf
+     dvi:                          Section     - Dri_BTH_Inst
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 18:12:06.522
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - keymagic2.inf
+     ndv:           Driver Date    - 11/11/2019
+     ndv:           Driver Version - 6.1.7800.0
+     sto:      {Setup Import Driver Package: c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf} 18:12:06.549
+     inf:           Provider: Apple Inc.
+     inf:           Class GUID: {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     inf:           Driver Version: 11/11/2019,6.1.7800.0
+     inf:           Catalog File: KeyMagic2.cat
+     sto:           {Copy Driver Package: c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf} 18:12:06.576
+     sto:                Driver Package = c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf
+     sto:                Flags          = 0x00000007
+     sto:                Destination    = C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}
+     sto:                Copying driver package files to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}'.
+!    inf:                Needed section [HID_Inst.NT] found in included INF "input.inf", indirectly referenced from [Dri_BTH_Inst.NT] by "hidbth.inf". Code = 1314, Line = 268
+     flq:                {FILE_QUEUE_COMMIT} 18:12:06.619
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\SwissA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\SwissA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\CanadaA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\CanadaA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\FrenchA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\FrenchA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\ChinaSA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\ChinaSA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\DanishA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\DanishA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\ChinaTA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\ChinaTA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\GermanA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\GermanA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\PolishA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\PolishA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\NorwayA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\NorwayA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\TurkeyA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\TurkeyA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\ItalianA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\ItalianA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\USA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\USA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\BelgiumA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\BelgiumA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\FinnishA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\FinnishA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\IntlEngA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\IntlEngA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\BritishA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\BritishA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\SpanishA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\SpanishA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\SwedishA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\SwedishA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\HungaryA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\HungaryA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\RussianA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\RussianA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\TurkeyQA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\TurkeyQA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\PortuguA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\PortuguA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\KeyMagic2.cat' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\KeyMagic2.cat'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\keymagic2.inf'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\KeyMagic2.sys' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\KeyMagic2.sys'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\CzechA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\CzechA.dll'.
+     flq:                     Copying 'c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\DutchA.dll' to 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\DutchA.dll'.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:12:06.816
+     sto:           {Copy Driver Package: exit(0x00000000)} 18:12:06.820
+     ump:           Import flags: 0x00000000
+     pol:           {Driver package policy check} 18:12:06.829
+     pol:           {Driver package policy check - exit(0x00000000)} 18:12:06.829
+     sto:           {Stage Driver Package: C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\keymagic2.inf} 18:12:06.830
+     inf:                Provider       = Apple Inc.
+     inf:                Class GUID     = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     inf:                Driver Version = 11/11/2019,6.1.7800.0
+     inf:                Catalog File   = KeyMagic2.cat
+     inf:                Version Flags  = 0x00000001
+!    inf:                Needed section [HID_Inst.NT] found in included INF "input.inf", indirectly referenced from [Dri_BTH_Inst.NT] by "hidbth.inf". Code = 1314, Line = 268
+     inf:                {Query Configurability: C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\keymagic2.inf} 18:12:06.852
+!    inf:                     Needed section [HID_Inst.NT] found in included INF "input.inf", indirectly referenced from [Dri_BTH_Inst.NT] by "hidbth.inf". Code = 1314, Line = 268
+     inf:                     Driver package uses WDF.
+     inf:                     Driver package 'keymagic2.inf' is configurable.
+     inf:                {Query Configurability: exit(0x00000000)} 18:12:06.864
+     flq:                {FILE_QUEUE_COMMIT} 18:12:06.867
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\SwissA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\SwissA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\CanadaA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\CanadaA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\FrenchA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\FrenchA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\ChinaSA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\ChinaSA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\DanishA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\DanishA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\ChinaTA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\ChinaTA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\GermanA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\GermanA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\PolishA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\PolishA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\NorwayA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\NorwayA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\TurkeyA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\TurkeyA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\ItalianA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\ItalianA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\USA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\USA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\BelgiumA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\BelgiumA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\FinnishA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\FinnishA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\IntlEngA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\IntlEngA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\BritishA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\BritishA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\SpanishA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\SpanishA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\SwedishA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\SwedishA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\HungaryA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\HungaryA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\RussianA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\RussianA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\TurkeyQA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\TurkeyQA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\PortuguA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\PortuguA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\KeyMagic2.cat' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\KeyMagic2.cat'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\keymagic2.inf' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\keymagic2.inf'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\KeyMagic2.sys' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\KeyMagic2.sys'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\CzechA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\CzechA.dll'.
+     flq:                     Copying 'C:\Users\NATHAN~1\AppData\Local\Temp\{eb2a6ddc-e861-874c-b057-ae1bf0abfc7f}\DutchA.dll' to 'C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\DutchA.dll'.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:12:07.281
+     sto:                {DRIVERSTORE IMPORT VALIDATE} 18:12:07.283
+     sig:                     Driver package catalog is valid.
+     sig:                     {_VERIFY_FILE_SIGNATURE} 18:12:07.301
+     sig:                          Key      = keymagic2.inf
+     sig:                          FilePath = C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\keymagic2.inf
+     sig:                          Catalog  = C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}\KeyMagic2.cat
+     sig:                          Success: File is signed in catalog.
+     sig:                     {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 18:12:07.308
+     sto:                {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 18:12:07.335
+     sig:                Signer Score  = 0x0D000005 (WHQL)
+     sig:                Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:                Submission ID = 30096900_14029166198035429_1152921504628230304
+     sto:                {Core Driver Package Import: keymagic2.inf_amd64_adbee1806b86a17e} 18:12:07.339
+     sto:                     {DRIVERSTORE IMPORT BEGIN} 18:12:07.340
+     sto:                     {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 18:12:07.341
+     cpy:                     {Copy Directory: C:\windows\System32\DriverStore\Temp\{a5d8629f-6b28-f645-bb40-9baefcf7509f}} 18:12:07.341
+     cpy:                          Target Path = C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e
+     cpy:                     {Copy Directory: exit(0x00000000)} 18:12:07.349
+     idb:                     {Register Driver Package: C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e\keymagic2.inf} 18:12:07.351
+     idb:                          Created driver package object 'keymagic2.inf_amd64_adbee1806b86a17e' in SYSTEM database node.
+     idb:                          Created driver INF file object 'oem46.inf' in SYSTEM database node.
+     idb:                          Registered driver package 'keymagic2.inf_amd64_adbee1806b86a17e' with 'oem46.inf'.
+     idb:                     {Register Driver Package: exit(0x00000000)} 18:12:07.355
+     idb:                     {Publish Driver Package: C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e\keymagic2.inf} 18:12:07.356
+     idb:                          Activating driver package 'keymagic2.inf_amd64_adbee1806b86a17e'.
+     cpy:                          Published 'keymagic2.inf_amd64_adbee1806b86a17e\keymagic2.inf' to 'oem46.inf'.
+     idb:                          Indexed 5 device IDs for 'keymagic2.inf_amd64_adbee1806b86a17e'.
+     sto:                          Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                     {Publish Driver Package: exit(0x00000000)} 18:12:07.367
+     sto:                     {DRIVERSTORE IMPORT END} 18:12:07.374
+     dvi:                          Flushed all driver package files to disk. Time = 8 ms
+     sig:                          Installed catalog 'KeyMagic2.cat' as 'oem46.cat'.
+     sto:                     {DRIVERSTORE IMPORT END: exit(0x00000000)} 18:12:07.400
+     sto:                {Core Driver Package Import: exit(0x00000000)} 18:12:07.401
+     sto:           {Stage Driver Package: exit(0x00000000)} 18:12:07.404
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 18:12:07.471
+     dvi:      Searching for hardware ID(s):
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}_localmfg&000f
+     dvi:      Searching for compatible ID(s):
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}_generic
+     dvi:      Class GUID of device changed to: {745a17a0-74d3-11d0-b6fe-00a0c90f57da}.
+     ump:      {Plug and Play Service: Device Install for BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000}
+     dvi:           {Core Device Install} 18:12:07.543
+     dvi:                {Configure Device - BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000} 18:12:07.545
+     dvi:                     Device Status: 0x0180000a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: BTH\MS_BTHBRB\7&2c157af8&0&1
+     sto:                     {Configure Driver Package: C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e\keymagic2.inf}
+     sto:                          Source Filter  = bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267
+     inf:                          Class GUID     = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     inf:                          Class Options  = Configurable BootCritical
+!    inf:                          Needed section [HID_Inst.NT] found in included INF "input.inf", indirectly referenced from [Dri_BTH_Inst.NT] by "hidbth.inf". Code = 1314, Line = 268
+     inf:                          {Configure Driver: Apple Keyboard}
+     inf:                               Section Name = Dri_BTH_Inst.NT
+     inf:                               {Add Service: KeyMagic2}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\KeyMagic2.sys
+     inf:                                    Display Name  = USB Keyboard HID Filter
+     inf:                                    Created new service 'KeyMagic2'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: HidBth}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\hidbth.sys
+     inf:                                    Display Name  = Microsoft Bluetooth HID Miniport
+     inf:                                    Group         = extended base
+     inf:                                    Updated service 'HidBth'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = BTHENUM\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&0267
+     inf:                               {Configure Driver Configuration: Dri_BTH_Inst.NT}
+     inf:                                    Service Name  = HidBth
+     inf:                                    Lower Filters = KeyMagic2
+     inf:                                    Included INFs = hidbth.inf
+     inf:                                                    input.inf
+     inf:                                                    keyboard.inf
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 18:12:07.586
+     flq:                               Copying 'C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e\KeyMagic2.sys' to 'C:\windows\System32\drivers\KeyMagic2.sys'.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\hidbth.inf_amd64_988ccc7131c100bd\hidbth.sys' to 'C:\windows\System32\drivers\hidbth.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidbth.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\input.inf_amd64_4cead7906ecede70\hidusb.sys' to 'C:\windows\System32\drivers\hidusb.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidusb.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\input.inf_amd64_4cead7906ecede70\hidclass.sys' to 'C:\windows\System32\drivers\hidclass.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidclass.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\input.inf_amd64_4cead7906ecede70\hidparse.sys' to 'C:\windows\System32\drivers\hidparse.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidparse.sys' remains unchanged.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:12:07.600
+     dvi:                          Existing files modified, may need to restart related services.
+     sto:                     {Configure Driver Package: exit(0x00000bc3)}
+     dvi:                     Restart required for any devices using this driver.
+     dvi:                     Install Device: Configuring device. 18:12:07.603
+     dvi:                          Configuration: oem46.inf:bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267,Dri_BTH_Inst
+     dvi:                     Install Device: Configuring device completed. 18:12:07.607
+     dvi:                     Device Status: 0x0180000a
+     dvi:                     {Restarting Devices} 18:12:07.608
+     dvi:                          Query-remove: BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000
+     dvi:                          Start: BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000
+     dvi:                          Restart verified: BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000
+     dvi:                     {Restarting Devices exit} 18:12:08.408
+     dvi:                {Configure Device - exit(0x00000000)} 18:12:08.410
+     dvi:           {Core Device Install - exit(0x00000000)} 18:12:08.412
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 18:12:08.430
+     ndv: {Install Related Drivers: exit(0x00000000)} 18:12:08.435
+<<<  Section end 2024/01/14 18:12:08.446
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267]
+>>>  Section start 2024/01/14 18:12:08.580
+      cmd: "C:\Users\NATHAN~1\AppData\Local\Temp\SDI\install64.exe" "BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267" "C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Apple\Allx64\AppleKeyboardMagic2\Keymagic2.inf"
+     ndv: INF path: C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Apple\Allx64\AppleKeyboardMagic2\Keymagic2.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Users\NATHAN~1\AppData\Local\Temp\SDI\Apple\Allx64\AppleKeyboardMagic2\Keymagic2.inf'
+     dvi:      {Build Driver List} 18:12:08.621
+     dvi:           Searching for hardware ID(s):
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}_localmfg&000f
+     dvi:           Searching for compatible ID(s):
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}
+     dvi:                bthenum\{00001124-0000-1000-8000-00805f9b34fb}_generic
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - BTHENUM\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&0267
+     dvi:                InfName      - c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf
+     dvi:                DevDesc      - Apple Keyboard
+     dvi:                Section      - Dri_BTH_Inst.NT
+     dvi:                Rank         - 0x00ff0000
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 11/11/2019
+     dvi:                Version      - 6.1.7800.0
+     dvi:      {Build Driver List - exit(0x00000000)} 18:12:08.715
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 18:12:08.721
+     dvi:           Default installer: Enter 18:12:08.726
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {745a17a0-74d3-11d0-b6fe-00a0c90f57da}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - Apple Keyboard
+     dvi:                          InfFile     - c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf
+     dvi:                          Section     - Dri_BTH_Inst
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 18:12:08.770
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - keymagic2.inf
+     ndv:           Driver Date    - 11/11/2019
+     ndv:           Driver Version - 6.1.7800.0
+     ndv:      Driver package 'C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e\keymagic2.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\users\nathan~1\appdata\local\temp\sdi\apple\allx64\applekeyboardmagic2\keymagic2.inf} 18:12:08.802
+     sto:           Driver package already imported as 'oem46.inf'.
+!    inf:           Needed section [HID_Inst.NT] found in included INF "Input.inf", indirectly referenced from [Dri_BTH_Inst.NT] by "hidbth.inf". Code = 1314, Line = 268
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 18:12:08.831
+     dvi:      Searching for hardware ID(s):
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}_localmfg&000f
+     dvi:      Searching for compatible ID(s):
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}
+     dvi:           bthenum\{00001124-0000-1000-8000-00805f9b34fb}_generic
+     dvi:      Class GUID of device changed to: {745a17a0-74d3-11d0-b6fe-00a0c90f57da}.
+     ump:      {Plug and Play Service: Device Install for BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000}
+     dvi:           {Core Device Install} 18:12:08.884
+     dvi:                {Configure Device - BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000} 18:12:08.885
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: BTH\MS_BTHBRB\7&2c157af8&0&1
+     sto:                     {Configure Driver Package: C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e\keymagic2.inf}
+     sto:                          Source Filter  = bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267
+     inf:                          Class GUID     = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     inf:                          Class Options  = Configurable BootCritical
+!    inf:                          Needed section [HID_Inst.NT] found in included INF "input.inf", indirectly referenced from [Dri_BTH_Inst.NT] by "hidbth.inf". Code = 1314, Line = 268
+     inf:                          {Configure Driver: Apple Keyboard}
+     inf:                               Section Name = Dri_BTH_Inst.NT
+     inf:                               {Add Service: KeyMagic2}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\KeyMagic2.sys
+     inf:                                    Display Name  = USB Keyboard HID Filter
+     inf:                                    Updated service 'KeyMagic2'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: HidBth}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\hidbth.sys
+     inf:                                    Display Name  = Microsoft Bluetooth HID Miniport
+     inf:                                    Group         = extended base
+     inf:                                    Updated service 'HidBth'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = BTHENUM\{00001124-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&0267
+     inf:                               {Configure Driver Configuration: Dri_BTH_Inst.NT}
+     inf:                                    Service Name  = HidBth
+     inf:                                    Lower Filters = KeyMagic2
+     inf:                                    Included INFs = hidbth.inf
+     inf:                                                    input.inf
+     inf:                                                    keyboard.inf
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 18:12:08.922
+     flq:                               Copying 'C:\windows\System32\DriverStore\FileRepository\keymagic2.inf_amd64_adbee1806b86a17e\KeyMagic2.sys' to 'C:\windows\System32\drivers\KeyMagic2.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\KeyMagic2.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\hidbth.inf_amd64_988ccc7131c100bd\hidbth.sys' to 'C:\windows\System32\drivers\hidbth.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidbth.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\input.inf_amd64_4cead7906ecede70\hidusb.sys' to 'C:\windows\System32\drivers\hidusb.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidusb.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\input.inf_amd64_4cead7906ecede70\hidclass.sys' to 'C:\windows\System32\drivers\hidclass.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidclass.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\windows\System32\DriverStore\FileRepository\input.inf_amd64_4cead7906ecede70\hidparse.sys' to 'C:\windows\System32\drivers\hidparse.sys'.
+     cpy:                               Existing file 'C:\windows\System32\drivers\hidparse.sys' remains unchanged.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:12:08.947
+     sto:                     {Configure Driver Package: exit(0x00000000)}
+     dvi:                     Install Device: Configuring device. 18:12:08.949
+     dvi:                          Configuration: oem46.inf:bthenum\{00001124-0000-1000-8000-00805f9b34fb}_vid&0001004c_pid&0267,Dri_BTH_Inst
+     dvi:                     Install Device: Configuring device completed. 18:12:08.951
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Install Device: Removing device 'BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&0267\8&9D64B89&0&0469F8D8A868_C00000000' and sub-tree. 18:12:08.953
+     dvi:                     Install Device: Removing device sub-tree completed. 18:12:08.956
+     dvi:                     Install Device: Restarting device. 18:12:08.956
+     dvi:                     Install Device: Restarting device completed. 18:12:08.975
+     dvi:                {Configure Device - exit(0x00000000)} 18:12:08.976
+     dvi:           {Core Device Install - exit(0x00000000)} 18:12:08.978
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 18:12:08.993
+     ndv: {Install Related Drivers: exit(0x00000000)} 18:12:08.999
+<<<  Section end 2024/01/14 18:12:09.009
+<<<  [Exit status: SUCCESS]
+
